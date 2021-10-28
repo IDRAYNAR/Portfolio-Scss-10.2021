@@ -5,6 +5,11 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.titre {
+  text-align: center;
+  text-decoration: underline;
+}
+
 /* ****************************************** */
 body {
   background: url("IMG/Blur.jpg");
@@ -24,7 +29,7 @@ body {
   gap: 0px 0px;
   grid-auto-flow: row;
   margin: 1%;
-  height: 55em;
+  height: auto;
   background: rgba(255, 255, 255, 0.25);
   -webkit-box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
           box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
@@ -94,7 +99,7 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   margin: 2%;
-  padding: 2%;
+  padding: 1%;
   background: rgba(132, 141, 143, 0.301);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -112,7 +117,7 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   margin: 2%;
-  padding: 2%;
+  padding: 1%;
   background: rgba(132, 141, 143, 0.301);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
