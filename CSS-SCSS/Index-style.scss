@@ -62,14 +62,22 @@ body {
 .img-rds {
     background             : rgba(0, 0, 0, 0.25);
     box-shadow             : 0 8px 32px 0 $bx-shdw-blck;
-    backdrop-filter        : blur( 18px );
-    -webkit-backdrop-filter: blur( 18px );
+    backdrop-filter        : blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius          : 10px;
     margin                 : $margin;
 }
 
 .id {
     margin: $margin;
+}
+
+.icon {
+    margin: $margin;
+}
+
+.icon a {
+    color: black;
 }
 
 /* ****************************************** */

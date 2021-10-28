@@ -70,6 +70,14 @@ body {
   margin: 2%;
 }
 
+.icon {
+  margin: 2%;
+}
+
+.icon a {
+  color: black;
+}
+
 /* ****************************************** */
 .Experience-professionnel {
   -ms-grid-row: 1;
