@@ -78,6 +78,14 @@ body {
   color: black;
 }
 
+.site {
+  margin: 2%;
+}
+
+.site a {
+  color: black;
+}
+
 /* ****************************************** */
 .Experience-professionnel {
   -ms-grid-row: 1;
@@ -86,7 +94,7 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   margin: 2%;
-  padding: 1%;
+  padding: 2%;
   background: rgba(132, 141, 143, 0.301);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -104,7 +112,7 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   margin: 2%;
-  padding: 1%;
+  padding: 2%;
   background: rgba(132, 141, 143, 0.301);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
