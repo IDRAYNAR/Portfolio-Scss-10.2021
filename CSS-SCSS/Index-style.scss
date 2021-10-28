@@ -1,15 +1,139 @@
 /* ****** SCSS VARIABLE ***** */
+$bckg-color: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+$blur: blur( 20px );
 
-/* ************************* */
-
+/* ****************************************** */
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align : center;
 }
 
+/* ****************************************** */
 body {
     background           : url("IMG/Blur.jpg");
     background-repeat    : no-repeat;
     background-size      : cover;
     background-attachment: fixed;
 }
+
+/* ****************************************** */
+.container {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr;
+    gap                  : 0px 0px;
+    grid-auto-flow       : row;
+}
+
+/* ****************************************** */
+.Portfolio {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr;
+    gap                  : 0px 0px;
+    grid-auto-flow       : row;
+    grid-area            : 1 / 1 / 4 / 4;
+
+    margin: 1%;
+
+    background             : rgba( 255, 255, 255, 0.25 );
+    box-shadow             : $bckg-color;
+    backdrop-filter        : blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius          : 10px;
+}
+
+/* ****************************************** */
+.identité {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr;
+    gap                  : 0px 0px;
+    grid-auto-flow       : row;
+    grid-area            : 1 / 1 / 2 / 4;
+    
+    background             : rgba( 0, 1, 255, 0.3 );
+    box-shadow             : $bckg-color;
+    backdrop-filter        : $blur;
+    -webkit-backdrop-filter: $blur;
+    border-radius          : 10px;
+
+    margin: 1%;
+}
+
+.Photo {
+    grid-area: 1 / 1 / 4 / 2;
+    margin   : 1%;
+}
+
+.Informations {
+    grid-area: 1 / 2 / 4 / 4;
+    margin   : 1%;
+}
+
+/* ****************************************** */
+.Activite-et-Interets {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr;
+    gap                  : 0px 0px;
+    grid-auto-flow       : row;
+    grid-area            : 2 / 1 / 3 / 4;
+
+    background             : rgba( 255, 0, 0, 0.3 );
+    box-shadow             : $bckg-color;
+    backdrop-filter        : $blur;
+    -webkit-backdrop-filter: $blur;
+    border-radius          : 10px;
+
+    margin: 1%;
+}
+
+.activite-n1 {
+    grid-area: 1 / 1 / 4 / 2;
+    margin   : 1%;
+}
+
+.activite-2 {
+    grid-area: 1 / 2 / 4 / 3;
+    margin   : 1%;
+}
+
+.activite-3 {
+    grid-area: 1 / 3 / 4 / 4;
+    margin   : 1%;
+}
+
+/* ****************************************** */
+.Experiences-Professionnel {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr;
+    gap                  : 0px 0px;
+    grid-auto-flow       : row;
+    grid-area            : 3 / 1 / 4 / 4;
+
+    background             : rgba( 0, 255, 59, 0.3 );
+    box-shadow             : $bckg-color;
+    backdrop-filter        : $blur;
+    -webkit-backdrop-filter: $blur;
+    border-radius          : 10px;
+
+    margin: 1%;
+}
+
+.experience-1 {
+    grid-area: 1 / 1 / 4 / 2;
+    margin   : 1%;
+}
+
+.experience-2 {
+    grid-area: 1 / 2 / 4 / 3;
+    margin   : 1%;
+}
+
+.experience-3 {
+    grid-area: 1 / 3 / 4 / 4;
+    margin   : 1%;
+}
+
+/* ****************************************** */
