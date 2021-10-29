@@ -1,16 +1,35 @@
 @charset "UTF-8";
-/* ****** SCSS VARIABLE ***** */
 /* ****************************************** */
+/* ************** SCSS VARIABLE ************* */
+/* ****************************************** */
+/* ************* PAGE FONT ****************** */
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* ****************************************** */
+/* ************ CASE TITLE ****************** */
 .titre {
   text-align: center;
   text-decoration: underline;
 }
 
 /* ****************************************** */
+/* ********** CATEGORIE BCKGRND ************* */
+#ttr {
+  margin: 2%;
+  padding: 1%;
+  background: rgba(131, 131, 131, 0.4);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* ****************************************** */
+/* ************** PAGE BCKGRND ************** */
 body {
   background: url("IMG/Blur.jpg");
   background-repeat: no-repeat;
@@ -18,6 +37,7 @@ body {
   background-attachment: fixed;
 }
 
+/* ****************************************** */
 /* ****************************************** */
 .container {
   display: -ms-grid;
@@ -30,15 +50,9 @@ body {
   grid-auto-flow: row;
   margin: 1%;
   height: auto;
-  background: rgba(255, 255, 255, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* ****************************************** */
 /* ****************************************** */
 .Photo-et-identité {
   -ms-grid-row: 1;
@@ -48,11 +62,11 @@ body {
   grid-area: 1 / 1 / 3 / 2;
   margin: 2%;
   padding: 1%;
-  background: rgba(132, 141, 143, 0.301);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -62,13 +76,14 @@ body {
 }
 
 .img-rds {
-  background: rgba(0, 0, 0, 0.25);
+  margin: 2%;
+  background: rgba(131, 131, 131, 0.4);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
-  margin: 2%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .id {
@@ -92,6 +107,7 @@ body {
 }
 
 /* ****************************************** */
+/* ****************************************** */
 .Experience-professionnel {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -100,15 +116,16 @@ body {
   grid-area: 1 / 2 / 2 / 3;
   margin: 2%;
   padding: 1%;
-  background: rgba(132, 141, 143, 0.301);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* ****************************************** */
 /* ****************************************** */
 .Projets-réalisé {
   -ms-grid-row: 2;
@@ -118,14 +135,15 @@ body {
   grid-area: 2 / 2 / 3 / 3;
   margin: 2%;
   padding: 1%;
-  background: rgba(132, 141, 143, 0.301);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* ****************************************** */
 /* ****************************************** */
 /*# sourceMappingURL=Index-style.css.map */
