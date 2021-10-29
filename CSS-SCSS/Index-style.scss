@@ -9,17 +9,21 @@ $brd-clr  : rgba(255, 255, 255, 0.18);
 $bx-shdw  : rgba(31, 38, 135, 0.37);
 $bx-shdw2 : rgba(0, 0, 0, 0.37);
 $b        : black;
+
 /* ****************************************** */
 /* ************* PAGE FONT ****************** */
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /* ****************************************** */
 /* ************ CASE TITLE ****************** */
 .titre {
     text-align     : center;
     text-decoration: underline;
+    font-weight: bold;
 }
+
 /* ****************************************** */
 /* ********** CATEGORIE BCKGRND ************* */
 #ttr {
@@ -29,9 +33,18 @@ $b        : black;
     box-shadow             : 0 8px 32px 0 $bx-shdw2;
     backdrop-filter        : $blur;
     -webkit-backdrop-filter: $blur;
-    border-radius          : 10px;
+    border-radius          : $brd-rds;
     border                 : 1px solid $brd-clr;
 }
+
+#ttr li {
+    margin: $margin;
+}
+
+#ttr li a {
+    color: black;
+}
+
 /* ****************************************** */
 /* ************** PAGE BCKGRND ************** */
 body {
@@ -40,6 +53,7 @@ body {
     background-size      : cover;
     background-attachment: fixed;
 }
+
 /* ****************************************** */
 /* ************ CONTENEUR CASES ************* */
 .container {
@@ -52,6 +66,7 @@ body {
     margin: 1%;
     height: auto;
 }
+
 /* ****************************************** */
 /* ************* CASE IDNTITY *************** */
 .Photo-et-identité {
@@ -78,7 +93,7 @@ body {
     box-shadow             : 0 8px 32px 0 $bx-shdw2;
     backdrop-filter        : $blur;
     -webkit-backdrop-filter: $blur;
-    border-radius          : 10px;
+    border-radius          : $brd-rds;
     border                 : 1px solid $brd-clr;
 }
 
@@ -101,6 +116,7 @@ body {
 .site a {
     color: $b;
 }
+
 /* ****************************************** */
 /* *********** EXP PROFESSIONNEL ************ */
 .Experience-professionnel {
@@ -116,6 +132,7 @@ body {
     border-radius          : $brd-rds;
     border                 : 1px solid $brd-clr;
 }
+
 /* ****************************************** */
 /* ************* PROJET REALISE ************* */
 .Projets-réalisé {
@@ -131,5 +148,6 @@ body {
     border-radius          : $brd-rds;
     border                 : 1px solid $brd-clr;
 }
+
 /* ****************************************** */
 /* ****************************************** */
