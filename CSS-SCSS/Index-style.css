@@ -4,7 +4,7 @@
 /* ****************************************** */
 /* ************* PAGE FONT ****************** */
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* ****************************************** */
@@ -41,7 +41,7 @@
 /* ****************************************** */
 /* ************** PAGE BCKGRND ************** */
 body {
-  background: url("IMG/Blur.jpg");
+  background: url("IMG/Blur-V2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
