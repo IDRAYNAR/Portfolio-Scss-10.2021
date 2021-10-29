@@ -30,12 +30,17 @@
 }
 
 #ttr li {
-  margin: 2%;
+  margin: 3%;
 }
 
 #ttr li a {
   color: #1b2aac;
   font-weight: bold;
+}
+
+hr {
+  opacity: 40%;
+  width: 50%;
 }
 
 /* ****************************************** */
