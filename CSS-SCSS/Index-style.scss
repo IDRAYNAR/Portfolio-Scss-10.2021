@@ -3,6 +3,7 @@
 $margin   : 2%;
 $blur     : blur(3.5px);
 $brd-rds  : 10px;
+$brd-rds2  : 100%;
 $case-clr : rgba(255, 255, 255, 0.35);
 $case-clr2: rgba(131, 131, 131, 0.4);
 $brd-clr  : rgba(255, 255, 255, 0.18);
@@ -96,8 +97,8 @@ body {
     box-shadow             : 0 8px 32px 0 $bx-shdw2;
     backdrop-filter        : $blur;
     -webkit-backdrop-filter: $blur;
-    border-radius          : $brd-rds;
-    border                 : 1px solid $brd-clr;
+    border-radius          : $brd-rds2;
+    border                 : 0.5px solid $brd-clr;
 }
 
 .id {
