@@ -130,6 +130,11 @@ body {
     color: $b;
 }
 
+meter {
+    display: flex;
+    width: auto;
+}
+
 /* ****************************************** */
 /* *********** EXP PROFESSIONNEL ************ */
 .Experience-professionnel {
