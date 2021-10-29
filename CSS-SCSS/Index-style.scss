@@ -9,6 +9,8 @@ $brd-clr  : rgba(255, 255, 255, 0.18);
 $bx-shdw  : rgba(31, 38, 135, 0.37);
 $bx-shdw2 : rgba(0, 0, 0, 0.37);
 $b        : black;
+$link-clr : rgb(27, 42, 172);
+$bld      : bold;
 
 /* ****************************************** */
 /* ************* PAGE FONT ****************** */
@@ -21,7 +23,7 @@ $b        : black;
 .titre {
     text-align     : center;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight    : $bld;
 }
 
 /* ****************************************** */
@@ -42,7 +44,8 @@ $b        : black;
 }
 
 #ttr li a {
-    color: black;
+    color      : $link-clr;
+    font-weight: $bld;
 }
 
 /* ****************************************** */
