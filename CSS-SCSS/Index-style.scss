@@ -91,6 +91,7 @@ a {
 
 #ttr li {
     margin: 4%;
+    font-size: large;
 }
 
 #ttr li a {
@@ -130,9 +131,7 @@ body {
 /* ************* CASE IDNTITY *************** */
 .Photo-et-identité {
     margin: $margin;
-
     padding: 1%;
-
     background: $case-clr;
     box-shadow: 0 8px 32px 0 $bx-shdw;
     backdrop-filter: $blur;
@@ -146,7 +145,6 @@ body {
 }
 
 .img-rds {
-    margin: $margin;
     background: $case-clr2;
     box-shadow: 0 8px 32px 0 $bx-shdw2;
     backdrop-filter: $blur;
@@ -185,9 +183,7 @@ meter {
 /* *********** EXP PROFESSIONNEL ************ */
 .Experience-professionnel {
     margin: $margin;
-
     padding: 2%;
-
     background: $case-clr;
     box-shadow: 0 8px 32px 0 $bx-shdw;
     backdrop-filter: $blur;
@@ -200,9 +196,7 @@ meter {
 /* ************* PROJET REALISE ************* */
 .Projets-réalisé {
     margin: $margin;
-
     padding: 2%;
-
     background: $case-clr;
     box-shadow: 0 8px 32px 0 $bx-shdw;
     backdrop-filter: $blur;
@@ -216,7 +210,7 @@ meter {
 }
 
 /* ****************************************** */
-/* ****************************************** */
+/* ************* MEDIA RESPONSIVE *********** */
 @media screen and (max-width: 600px) {
     .container {
         grid-template-columns: 1fr 100%;
@@ -254,6 +248,28 @@ meter {
     .header-right {
         float: none;
     }
+}
+
+/* ****************************************** */
+/* *************** SCROLLBAR **************** */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #445d90;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #474d90;
 }
 
 /* ****************************************** */
