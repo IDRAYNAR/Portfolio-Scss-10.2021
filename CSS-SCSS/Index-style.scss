@@ -252,22 +252,22 @@ meter {
 
 /* ****************************************** */
 /* *************** SCROLLBAR **************** */
-/* width */
+/** width **/
 ::-webkit-scrollbar {
     width: 15px;
 }
 
-/* Track */
+/** Track **/
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
 }
 
-/* Handle */
+/** Handle **/
 ::-webkit-scrollbar-thumb {
     background: #445d90;
 }
 
-/* Handle on hover */
+/** Handle on hover **/
 ::-webkit-scrollbar-thumb:hover {
     background: #474d90;
 }
