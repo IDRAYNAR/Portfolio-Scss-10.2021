@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /* ****************************************** */
 /* ************** SCSS VARIABLE ************* */
+/* margin */
+/* blur */
+/* border radius */
+/* border radius */
+/* couleur fond container */
+/* couleur fonc mini container */
+/* border color */
+/* box shadow */
+/* box shadow */
+/* couleur noir */
+/* couleur des textes liens */
+/* fontion bold des textes en gras */
 /* ****************************************** */
 /* ************* PAGE FONT ****************** */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
@@ -140,7 +152,7 @@ body {
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
-  border-radius: 100%;
+  border-radius: 50%;
   border: 0.5px solid rgba(255, 255, 255, 0.18);
 }
 
