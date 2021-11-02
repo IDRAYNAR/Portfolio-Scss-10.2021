@@ -179,4 +179,25 @@ meter {
 
 /* ****************************************** */
 /* ****************************************** */
+@media screen and (max-width: 600px) {
+  .container {
+    -ms-grid-columns: 1fr 100%;
+        grid-template-columns: 1fr 100%;
+  }
+  .Photo-et-identité {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+  .Experience-professionnel {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+  .Projets-réalisé {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+
+/* ****************************************** */
+/* ****************************************** */
 /*# sourceMappingURL=Index-style.css.map */
